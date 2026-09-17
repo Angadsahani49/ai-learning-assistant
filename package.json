@@ -1,0 +1,21 @@
+{
+  "name": "ai-learning-assistant-backend",
+  "version": "1.0.0",
+  "description": "Backend API for AI Learning Assistant",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.24.0",
+    "@google/genai": "^2.11.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.3"
+  }
+}
